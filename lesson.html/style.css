@@ -1,0 +1,40 @@
+/* style.css */
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.header_erea {
+  width: 100%;
+  background: black;
+}
+.header_inner {
+  width: 100%;
+  margin: 0 auto;
+}
+.head_text {
+  font-size: 2rem;
+  color: aqua;
+  padding-left: 5%;
+}
+.header_wrrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head_item {
+  display: flex;
+}
+.head_list {
+  padding: 0 40px;
+  background: red;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
